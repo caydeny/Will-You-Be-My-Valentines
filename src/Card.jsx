@@ -86,7 +86,7 @@ function Card() {
 
     return (
         <div className="card">
-            <img className="card-gif" src="{heartCatGif}" alt="Heart cat" />
+            <img className="card-gif" src={heartCatGif} alt="Heart cat" />
             <h2 className="card-title">Will you be my Valentine?</h2>
             <div className="card-buttons">
                 <button onClick={handleYesClick} className="card-yes">Yes</button>
