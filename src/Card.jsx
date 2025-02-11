@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import catJumpGif from '/public/cat-jump.gif';
-import heartCatGif from '/public/heart-cat.gif';
+import catJumpGif from '/react-vite/public/cat-jump.gif';
+import heartCatGif from '/react-vite/public/heart-cat.gif';
 
 function Card() {
     const [timeLeft, setTimeLeft] = useState('');
