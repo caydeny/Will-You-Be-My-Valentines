@@ -64,10 +64,10 @@ function Card() {
     if (showNewScreen) {
         return (
             <div className="card">
-                <img className="card-gif" src="/assets/cat-jump.gif" alt="Jumping cat" />
+                <img className="card-gif" src="./src/assets/cat-jump.gif" alt="Jumping cat" />
                 <h2 className="card-title">Your gift will unlock in: {timeLeft}</h2>
                 <a 
-                    href="/assets/cat-jump.gif" 
+                    href="./src/assets/cat-jump.gif" 
                     download 
                     className={`card-download ${!isTimeUp ? 'disabled' : ''}`}
                     onClick={handleDownload}
