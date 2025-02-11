@@ -67,7 +67,7 @@ function Card() {
                 <img className="card-gif" src="./cat-jump.gif" alt="Jumping cat" />
                 <h2 className="card-title">Your gift will unlock in: {timeLeft}</h2>
                 <a 
-                    href="./cat-jump.gif" 
+                    href="./vouchers.jpg" 
                     download 
                     className={`card-download ${!isTimeUp ? 'disabled' : ''}`}
                     onClick={handleDownload}
