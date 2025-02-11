@@ -64,10 +64,10 @@ function Card() {
     if (showNewScreen) {
         return (
             <div className="card">
-                <img className="card-gif" src="src/assets/cat-jump.gif" alt="Jumping cat" />
+                <img className="card-gif" src="/cat-jump.gif" alt="Jumping cat" />
                 <h2 className="card-title">Your gift will unlock in: {timeLeft}</h2>
                 <a 
-                    href="./src/assets/cat-jump.gif" 
+                    href="/cat-jump.gif" 
                     download 
                     className={`card-download ${!isTimeUp ? 'disabled' : ''}`}
                     onClick={handleDownload}
@@ -84,7 +84,7 @@ function Card() {
 
     return (
         <div className="card">
-            <img className="card-gif" src="../src/assets/heart-cat.GIF" alt="Heart cat" />
+            <img className="card-gif" src="./heart-cat.gif" alt="Heart cat" />
             <h2 className="card-title">Will you be my Valentine?</h2>
             <div className="card-buttons">
                 <button onClick={handleYesClick} className="card-yes">Yes</button>
