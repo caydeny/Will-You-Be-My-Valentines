@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./assets/heart-background.webp);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 650px;
+    height: 650px;
+    background-color: rgb(253, 208, 208);
+}
+
+.card .card-gif {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 225px;
+    max-height: 225px;
+}
+
+.card .card-title {
+    font-family: Calibri;
+    font-size: 1.2em;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    
+    position: relative;
+}
+
+.card .card-yes {
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Calibri;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.card .card-no {
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Calibri;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.card .card-download {
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Calibri;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none; 
+}
