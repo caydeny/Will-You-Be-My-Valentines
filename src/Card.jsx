@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import catJumpGif from './assets/cat-jump.gif';
+import heartCatGif from './assets/heart-cat.gif';
 
 function Card() {
     const [timeLeft, setTimeLeft] = useState('');
@@ -64,10 +66,10 @@ function Card() {
     if (showNewScreen) {
         return (
             <div className="card">
-                <img className="card-gif" src="/assets/cat-jump.gif" alt="Jumping cat" />
+                <img className="card-gif" src={catJumpGif} alt="Jumping cat" />
                 <h2 className="card-title">Your gift will unlock in: {timeLeft}</h2>
                 <a 
-                    href="/assets/cat-jump.gif" 
+                    href={catJumpGif} 
                     download 
                     className={`card-download ${!isTimeUp ? 'disabled' : ''}`}
                     onClick={handleDownload}
@@ -84,7 +86,7 @@ function Card() {
 
     return (
         <div className="card">
-            <img className="card-gif" src="/assets/heart-cat.gif" alt="Heart cat" />
+            <img className="card-gif" src="{heartCatGif}" alt="Heart cat" />
             <h2 className="card-title">Will you be my Valentine?</h2>
             <div className="card-buttons">
                 <button onClick={handleYesClick} className="card-yes">Yes</button>
