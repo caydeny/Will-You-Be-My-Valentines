@@ -15,7 +15,7 @@ function Card() {
     const [showNewScreen, setShowNewScreen] = useState(false);
 
     useEffect(() => {
-        const countDownDate = new Date("Feb 13, 2025 23:59:59").getTime();
+        const countDownDate = new Date("Feb 11, 2025 23:59:59").getTime();
 
         const timer = setInterval(() => {
             const now = new Date().getTime();
