@@ -17,8 +17,8 @@ Try here:
 1. Clone this repository:
    
 ```bash
-   git clone https://github.com/yourusername/valentines-project.git
-   cd valentines-project
+   git clone https://github.com/yourusername/will-you-be-my-valentines.git
+   cd will-you-be-my-valentines
 ```
 2. Install dependencies:
    
