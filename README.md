@@ -3,7 +3,7 @@
 A fun and interactive web experience built with React and Vite. This project was a creative way to apply my React skills while building something engaging and playful. The user is asked to be my Valentine, but when they try to hover over 'No,' the button playfully runs away from the cursor.
 
 Try here:
-[Live Demo](https://caydeny.github.io/react-vite/)
+[Live Demo](https://caydeny.github.io/Will-You-Be-My-Valentines/)
 
 ## Features
 
